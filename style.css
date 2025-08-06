@@ -224,6 +224,7 @@ a:hover {
 
     .nameTitle {
         font-size: 1.5em;
+        margin-bottom:0.5vh;
     }
 
     .runText {
