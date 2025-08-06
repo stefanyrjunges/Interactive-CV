@@ -408,6 +408,7 @@ const modalData = {
         <b><i>Successfully negotiated out-of-court settlements for multiple clients</b></i>: helped avoid litigation and reduce resolution time by facilitating mediation sessions that led to favorable agreements—saving time and resources for both the institution and clients.
         <br>
         <b><i>Reduced case preparation time by optimizing client intake process</b></i>: created a structured template to gather client information more efficiently, improving document accuracy and accelerating case filing.
+        <br>
         <b><i>Handled complex civil cases with tailored legal strategies</b></i>: adapted legal arguments to diverse client situations.
 
         <br><br>
