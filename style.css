@@ -99,6 +99,7 @@ ul.custom-list {
 /* Highlight/button customisation */
 
 button {
+    color:#222121;
     background-color: transparent;
     border: none;
     font-family: inherit;
@@ -217,14 +218,12 @@ a:hover {
 /* Responsive */
 @media screen and (min-width:390px) and (max-width:499px) {
     .menu {
-        width: 33vh;
-        font-size: 0.5rem;
-        margin-left: 0vh;
+        width: 43vh;
+        font-size: 0.7rem;
     }
 
     .nameTitle {
-        font-size: 1.4rem;
-        margin-left: 0vh;
+        font-size: 1.5em;
     }
 
     .runText {
