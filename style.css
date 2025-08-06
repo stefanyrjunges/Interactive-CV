@@ -219,7 +219,7 @@ a:hover {
 @media screen and (min-width:390px) and (max-width:499px) {
     .menu {
         width: 43vh;
-        font-size: 0.6rem;
+        font-size: 0.6git rem;
     }
 
     .nameTitle {
@@ -263,11 +263,9 @@ a:hover {
     }
 
     .modal-content {
-        width: 35vh;
+        width: 48vh;
         font-size: 0.7rem;
     }
-
-
 }
 
 @media screen and (min-width:500px) {
