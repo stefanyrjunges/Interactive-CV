@@ -3,8 +3,8 @@
 <p>
   A fully interactive and animated CV built with HTML, CSS, and JavaScript.<br>
   It highlights my career journey from law to computing, showcasing my background, skills, and technical projects.
-
-  <a href="
+  <br><br>
+  <b><a href="https://sjunges.vercel.app/ target="_blank">Check the website!</a></b>
 </p>
 
 <h2>✨ Features</h2>
