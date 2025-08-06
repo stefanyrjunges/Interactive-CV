@@ -215,27 +215,25 @@ a:hover {
 }
 
 /* Responsive */
-@media screen and (min-width:400px) and (max-width:499px) {
+@media screen and (min-width:390px) and (max-width:499px) {
     .menu {
         width: 33vh;
         font-size: 0.5rem;
-        margin-left: -12vh;
+        margin-left: 0vh;
     }
 
     .nameTitle {
         font-size: 1.4rem;
-        margin-left: -12vh;
+        margin-left: 0vh;
     }
 
     .runText {
-        font-size: 0.7rem;
-        margin-left: -12vh;
+        font-size: 0.8rem;
         margin-top: 1vh;
     }
 
     .box {
-        width: 33vh;
-        margin-left: -12vh;
+        width: 35vh;
         font-size: 0.5rem;
         margin-top: -11vh;
     }
@@ -266,7 +264,6 @@ a:hover {
 
     .modal-content {
         width: 30vh;
-        margin-left: 2vh;
         font-size: 0.7rem;
     }
 
