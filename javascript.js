@@ -375,7 +375,7 @@ const modalData = {
         <div class="highlight">Team communication</div>
         <div class="highlight">Process adaptation</div>
     `,
-    legalAnalyst:`
+    legalAnalyst: `
         <div class="sectionTitle">Key achievements</div>
         <b><i>Helped secure case dismissal through evidence contradiction</b></i>: identified inconsistencies in police reports and witness statements, which contributed to the dismissal of charges in a felony case.
         <br>
@@ -402,7 +402,7 @@ const modalData = {
         <div class="highlight">Time-sensitive problem-solving</div>
         <div class="highlight">Technical documentation</div>
     `,
-    legalAdvisor:`
+    legalAdvisor: `
         <div class="sectionTitle">Key achievements</div>
         <b><i>Successfully negotiated out-of-court settlements for multiple clients</b></i>: helped avoid litigation and reduce resolution time by facilitating mediation sessions that led to favorable agreements—saving time and resources for both the institution and clients.
         <br>
@@ -455,7 +455,7 @@ function showBox() {
     box[0].classList.remove("slide-down");
     box[0].classList.add("slide-up");
 
-    box[0].style.opacity = '1'; 
+    box[0].style.opacity = '1';
 
     triggerAnimation(box[0], 'fadeIn');
 
@@ -486,9 +486,9 @@ function unshowBox() {
 }
 
 function triggerAnimation(element, animationClass) {
-  element.classList.remove(animationClass);
-  void element.offsetWidth;
-  element.classList.add(animationClass);
+    element.classList.remove(animationClass);
+    void element.offsetWidth;
+    element.classList.add(animationClass);
 }
 
 function showAboutMe() {
