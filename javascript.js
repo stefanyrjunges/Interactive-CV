@@ -110,24 +110,14 @@ const contentData = {
         <div class="sectionTitle">Others</div>
         <hr>
 
-        <div class="highlight">Psychological Care and Reporting Specialist</div>
+        <div class="highlight">Legal Advisor</div>
         <br>
-        2017
+        2021
         <br>
         <i>University of Passo Fundo, Brazil</i>
         <br>
-        Prepared detailed reports for the judiciary, ensuring up-to-date legal information, data accuracy and confidentiality while working with interdisciplinary teams.
-        <button class="learnMore" onClick="showPsychologicalCareModal()">Learn more</button>
-
-        <br><br>
-        <div class="highlight">Legal Assistant</div>
-        <br>
-        2018
-        <br>
-        <i>Liviera & Dalla Costa Law Firm, Brazil</i>
-        <br>
-        Conducted legal research to support case preparation, managed multiple legal cases concurrently while communicating and collaborating with lawyers, clients and other legal professionals.
-        <button class="learnMore" onClick="showLegalAssistantModal()">Learn more</button>
+        Provided legal assistance to low-income individuals, analysing complex legal issues and developing effective solutions, as well as collaborating with team members to prepare tailored legal documents. 
+        <button class="learnMore" onClick="showLegalAdvisorModal()">Learn more</button>
 
         <br><br>
         <div class="highlight">Legal Analyst</div>
@@ -140,14 +130,24 @@ const contentData = {
         <button class="learnMore" onClick="showLegalAnalystModal()">Learn more</button>
 
         <br><br>
-        <div class="highlight">Legal Advisor</div>
+        <div class="highlight">Legal Assistant</div>
         <br>
-        2021
+        2018
+        <br>
+        <i>Liviera & Dalla Costa Law Firm, Brazil</i>
+        <br>
+        Conducted legal research to support case preparation, managed multiple legal cases concurrently while communicating and collaborating with lawyers, clients and other legal professionals.
+        <button class="learnMore" onClick="showLegalAssistantModal()">Learn more</button>
+
+        <br><br>
+        <div class="highlight">Psychological Care and Reporting Specialist</div>
+        <br>
+        2017
         <br>
         <i>University of Passo Fundo, Brazil</i>
         <br>
-        Provided legal assistance to low-income individuals, analysing complex legal issues and developing effective solutions, as well as collaborating with team members to prepare tailored legal documents. 
-        <button class="learnMore" onClick="showLegalAdvisorModal()">Learn more</button>
+        Prepared detailed reports for the judiciary, ensuring up-to-date legal information, data accuracy and confidentiality while working with interdisciplinary teams.
+        <button class="learnMore" onClick="showPsychologicalCareModal()">Learn more</button>
     `,
     projects: `
         <div class="sectionTitle">Projects</div>
