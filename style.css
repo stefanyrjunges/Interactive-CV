@@ -99,7 +99,7 @@ ul.custom-list {
 /* Highlight/button customisation */
 
 button {
-    color:#222121;
+    color: #222121;
     background-color: transparent;
     border: none;
     font-family: inherit;
@@ -249,8 +249,8 @@ a:hover {
     .highlight,
     .learnMore {
         font-size: 0.5rem;
-        padding-right:0.4rem;
-        padding-left:0.4rem;
+        padding-right: 0.4rem;
+        padding-left: 0.4rem;
     }
 
     .grid {
@@ -261,7 +261,7 @@ a:hover {
 
     .sProjects {
         float: none;
-        margin-bottom:-8vh;
+        margin-bottom: -8vh;
     }
 
     .modal-content {
@@ -383,9 +383,9 @@ a:hover {
 }
 
 @media screen and (min-width: 1301px) {
-
     .menu {
         width: 80vh;
+        font-size: 1rem;
     }
 
     .nameTitle {
@@ -394,7 +394,7 @@ a:hover {
 
     .runText {
         font-size: 2.9rem;
-        margin-top: 2vh;
+        margin-top: 1vh;
     }
 
     .container {
