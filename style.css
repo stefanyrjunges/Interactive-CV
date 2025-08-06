@@ -219,7 +219,7 @@ a:hover {
 @media screen and (min-width:390px) and (max-width:499px) {
     .menu {
         width: 43vh;
-        font-size: 0.5rem;
+        font-size: 0.3rem;
     }
 
     .nameTitle {
@@ -232,7 +232,7 @@ a:hover {
     }
 
     .box {
-        width: 35vh;
+        width: 45vh;
         font-size: 0.5rem;
         margin-top: -11vh;
     }
