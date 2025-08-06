@@ -51,7 +51,7 @@ h3.h3Projects {
     font-size: 1rem;
     color: black;
     width: 95vh;
-    height: 95vh;
+    height: 100%;
     margin-top: 5vh;
     padding: 1.25rem;
     text-align: justify;
@@ -215,7 +215,65 @@ a:hover {
 }
 
 /* Responsive */
-@media screen and (max-width:650px) {
+@media screen and (min-width:400px) and (max-width:499px) {
+    .menu {
+        width: 33vh;
+        font-size: 0.5rem;
+        margin-left: -12vh;
+    }
+
+    .nameTitle {
+        font-size: 1.4rem;
+        margin-left: -12vh;
+    }
+
+    .runText {
+        font-size: 0.7rem;
+        margin-left: -12vh;
+        margin-top: 1vh;
+    }
+
+    .box {
+        width: 33vh;
+        margin-left: -12vh;
+        font-size: 0.5rem;
+        margin-top: -11vh;
+    }
+
+    .container {
+        margin-top: 5vh;
+    }
+
+    .sectionTitle {
+        font-size: 1.3rem;
+    }
+
+    .highlight,
+    .learnMore {
+        font-size: 0.5rem;
+    }
+
+    .grid {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .sProjects {
+        float: none;
+        margin-bottom:-8vh;
+    }
+
+    .modal-content {
+        width: 30vh;
+        margin-left: 2vh;
+        font-size: 0.7rem;
+    }
+
+
+}
+
+@media screen and (min-width:500px) {
     .menu {
         width: 55vh;
         font-size: 0.875rem;
@@ -250,6 +308,10 @@ a:hover {
         width: 70vh;
     }
 
+    .nameTitle {
+        font-size: 2.5rem;
+    }
+
     .runText {
         font-size: 1.4rem;
         margin-top: 2vh;
@@ -275,6 +337,10 @@ a:hover {
         width: 70vh;
     }
 
+    .nameTitle {
+        font-size: 2.5rem;
+    }
+
     .runText {
         font-size: 1.6rem;
         margin-top: 2vh;
@@ -293,6 +359,10 @@ a:hover {
 @media screen and (min-width: 993px) and (max-width:1300px) {
     .menu {
         width: 75vh;
+    }
+
+    .nameTitle {
+        font-size: 3rem;
     }
 
     .runText {
@@ -316,6 +386,15 @@ a:hover {
 }
 
 @media screen and (min-width: 1301px) {
+
+    .menu {
+        width: 80vh;
+    }
+
+    .nameTitle {
+        font-size: 3rem;
+    }
+
     .runText {
         font-size: 2.9rem;
         margin-top: 2vh;
@@ -326,6 +405,7 @@ a:hover {
     }
 
     .box {
+        width: 100vh;
         margin-top: -10vh;
     }
 }

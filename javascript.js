@@ -219,7 +219,7 @@ const contentData = {
         <br><br>
 
         <img class="imgProjects" src="/images/productslookup.png" style="width:200px">
-        <p class="productslookup">
+        <p class="sProjects">
         <b>Products Look Up System | <a href="https://github.com/stefanyrjunges/myProducts" target="_blank">GitHub</a></b>
         <br>
         <b>Programming language</b>: HTML, CSS, JavaScript
@@ -254,8 +254,9 @@ const contentData = {
         <br>
         This project aims to streamline the assignment management process, providing a centralised platform for tracking and staying updated on upcoming deadlines. By combining intuitive user interface design with automated notifications, the application aims to enhance productivity and reduce the likelihood of missed deadlines.
         </p>
-        
 
+        <br><br>
+    
         </div>
     `
 };
@@ -454,8 +455,6 @@ function showBox() {
 
     box[0].classList.remove("slide-down");
     box[0].classList.add("slide-up");
-
-    box[0].style.opacity = '1';
 
     triggerAnimation(box[0], 'fadeIn');
 
