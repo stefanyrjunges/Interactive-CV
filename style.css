@@ -232,9 +232,10 @@ a:hover {
     }
 
     .box {
-        width: 45vh;
+        width: 50vh;
         font-size: 0.5rem;
         margin-top: -11vh;
+        line-height: 1rem;
     }
 
     .container {
@@ -262,7 +263,7 @@ a:hover {
     }
 
     .modal-content {
-        width: 30vh;
+        width: 35vh;
         font-size: 0.7rem;
     }
 
