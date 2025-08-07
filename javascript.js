@@ -243,7 +243,7 @@ const contentData = {
 
         <img class="imgProjects" src="/images/bankapp.png" style="width:200px">
         <p class="sProjects">
-        <b>Assignment Organiser | <a href="https://github.com/stefanyrjunges/BankingApp" target="_blank">GitHub</a></b>
+        <b>Banking App | <a href="https://github.com/stefanyrjunges/BankingApp" target="_blank">GitHub</a></b>
         <br>
         <b>Programming language</b>: Java
         <br>
