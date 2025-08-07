@@ -63,7 +63,7 @@ const contentData = {
         <br>
         <div class="highlight">Databases</div> MYSQL, MongoDB, JSON
         <br>
-        <div class="highlight">Tools</div> Java Swing, JavaFX, JasperReports, Node.js, XML, Bootstrap, Cisco Packet Tracer, Postman
+        <div class="highlight">Tools</div> Java Swing, JavaFX, JasperReports, Node.js, XML, Bootstrap, Cisco Packet Tracer, Mockito, Mailtrap, Photoshop, Photofiltre
         <br><br>
         <div class="sectionTitle">Personal skills</div> 
         <hr>
