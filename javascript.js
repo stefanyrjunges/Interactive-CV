@@ -87,6 +87,17 @@ const contentData = {
     experience: `
         <div class="sectionTitle">Technology</div>
         <hr>
+
+        <div class="highlight">Mentee</div>
+        <br>
+        2024 - 2025
+        <br>
+        <i>Dell Technologies, Dublin</i>
+        <br>
+        Received 1:1 mentorship focused on career and personal growth, leadership mindset, and communication, gaining clarity, confidence, and guidance to transition into the tech industry.
+        <button class="learnMore" onClick="showMenteeModal()">Learn more</button>
+        
+        <br><br>
         <div class="highlight">Web Designer</div>
         <br>
         2014 - 2016
@@ -107,19 +118,9 @@ const contentData = {
         <button class="learnMore" onClick="showFounderAndDeveloperModal()">Learn more</button>
 
         <br><br>
-        <div class="sectionTitle">Other</div>
+        <div class="sectionTitle">Law</div>
         <hr>
-
-        <div class="highlight">Housekeeper</div>
-        <br>
-        2022 - Present
-        <br>
-        <i>Broc House Suites, Dublin</i>
-        <br>
-        Ensure high standards of cleanliness, efficiency, and guest satisfaction in a busy hotel environment. Developed time-saving workflows, maintained detailed checklists, and collaborated with team members to ensure service consistency and operational smoothness. 
-        <button class="learnMore" onClick="showHousekeeperModal()">Learn more</button>
-
-        <br><br>
+  
         <div class="highlight">Legal Advisor</div>
         <br>
         2021
@@ -158,6 +159,30 @@ const contentData = {
         <br>
         Prepared detailed reports for the judiciary, ensuring up-to-date legal information, data accuracy and confidentiality while working with interdisciplinary teams.
         <button class="learnMore" onClick="showPsychologicalCareModal()">Learn more</button>
+
+        <br><br>
+        <div class="sectionTitle">Other</div>
+        <hr>
+
+        <div class="highlight">Housekeeper</div>
+        <br>
+        2022 - Present
+        <br>
+        <i>Broc House Suites, Dublin</i>
+        <br>
+        Ensure high standards of cleanliness, efficiency, and guest satisfaction in a busy hotel environment. Developed time-saving workflows, maintained detailed checklists, and collaborated with team members to ensure service consistency and operational smoothness. 
+        <button class="learnMore" onClick="showHousekeeperModal()">Learn more</button>
+
+        <br><br>
+
+        <div class="highlight">Assistant Manager</div>
+        <br>
+        2023 - 2024
+        <br>
+        <i>Four Star Pizza, Dublin</i>
+        <br>
+        Oversaw daily operations in a fast-paced environment, managed scheduling and team coordination, resolved customer issues efficiently, and implemented workflow improvements to boost service quality and speed.
+        <button class="learnMore" onClick="showAssistantManagerModal()">Learn more</button>
     `,
     projects: `
         <div class="sectionTitle">Projects</div>
@@ -462,7 +487,56 @@ const modalData = {
 
         <br><br>
         <div class="sectionTitle">Main skills</div> <div class="highlight">Process optimisation</div> <div class="highlight">Attention to detail</div> <div class="highlight">Time-critical decision-making</div> <div class="highlight">Team collaboration</div> <div class="highlight">Service quality awareness</div>
+    `,
+    assistantManager:`
+        <div class="sectionTitle">Key achievements</div>
+        <b><i>Resolved customer issues with empathy and speed</b></i>: handled escalations calmly, turning negative situations into positive outcomes, boosting customer satisfaction and retention.
+        <br>
+        <b><i>Maintained operational consistency under pressure</b></i>: ensured high-quality service during staff shortages and busy periods by streamlining procedures and maintaining team morale.
 
+        <br><br>
+        <div class="sectionTitle">Challenges</div>
+        <b><i>Managing a diverse team with varying work styles</b></i>: coordinating team members from different backgrounds and levels of experience.
+        <br>
+        <i>Solution</i>: established clear expectations, offered peer support, and used feedback loops to build trust and accountability.
+        <br>
+        <b><i>Keeping service quality high in a high-turnover environment</b></i>: staff changes impacted performance and training consistency.
+        <br>
+        <i>Solution</i>: created onboarding checklists and guided new hires through core responsibilities, reducing ramp-up time.
+
+        <br><br>
+        <div class="sectionTitle">Main skills</div>
+        <div class="highlight">Team coordination</div>
+        <div class="highlight">Problem-solving</div>
+        <div class="highlight">Workflow improvement</div>
+        <div class="highlight">Customer-focused communication</div>
+        <div class="highlight">Adaptability in fast-paced environments</div> 
+    `,
+    mentee:`
+        <div class="sectionTitle">Key achievements</div>
+        <b><i>Clarified career path into the tech industry</b></i>: gained guidance from experienced professionals, which helped solidify long-term goals and align them with real-world opportunities in IT.
+        <br>
+        <b><i>Strengthened leadership mindset through mentorship</b></i>: learned to approach problems with ownership, confidence, and a values-driven mindset—skills directly applicable to team environments in tech.
+        <br>
+        <b><i>Grew communication and critical thinking skills</b></i>: participated in reflective exercises and discussions that enhanced my ability to communicate clearly and think strategically.
+
+        <br><br>
+        <div class="sectionTitle">Challenges</div>
+        <b><i>Transitioning from legal to tech mindset</b></i>: adapting soft skills from a legal background to fit the fast-paced, solution-focused tech environment.
+        <br>
+        <i>Solution</i>: embraced growth mindset practices and learned how to apply existent skills to my career in tech.
+        <br>
+        <b><i>Building confidence in a new industry</b></i>: navigating unfamiliar territory in technology as a career switcher.
+        <br>
+        <i>Solution</i>: leaned into mentorship support, sought clarity through open questions, and used personal reflection to map progress.
+
+        <br><br>
+        <div class="sectionTitle">Main skills</div>
+        <div class="highlight">Growth mindset</div>
+        <div class="highlight">Professional communication</div>
+        <div class="highlight">Ethical leadership</div>
+        <div class="highlight">Career navigation</div>
+        <div class="highlight">Self-reflection and adaptability</div>
     `
 };
 
@@ -608,4 +682,12 @@ function showLegalAdvisorModal() {
 
 function showHousekeeperModal() {
     showModal(modalData.housekeeper);
+}
+
+function showAssistantManagerModal() {
+    showModal(modalData.assistantManager);
+}
+
+function showMenteeModal() {
+    showModal(modalData.mentee);
 }
