@@ -107,7 +107,7 @@ const contentData = {
         <button class="learnMore" onClick="showFounderAndDeveloperModal()">Learn more</button>
 
         <br><br>
-        <div class="sectionTitle">Others</div>
+        <div class="sectionTitle">Other</div>
         <hr>
 
         <div class="highlight">Housekeeper</div>
@@ -276,7 +276,7 @@ const modalData = {
         <div class="sectionTitle">Key achievements</div>
         <b><i>Improved user retention by 40%</b></i>: by implementing iterative design based on feedback and analytics, users were more satisfied and spent more time on the website, reducing bounce rates.
         <br>
-        <b><i>Introduced new features based on user requests</b></i>: increasing engagement.
+        <b><i>Introduced new features based on user requests</b></i>: increased engagement by analysing user response.
         <br>
         <b><i>Implemented theme modularity</b></i>: clients were able to easily update sections of their site with minimal code knowledge.
         <br>
@@ -312,7 +312,7 @@ const modalData = {
         <br>
         <b><i>Built a community-first approach</b></i>: encouraged contributions, feedback and resource sharing through social media and word-of-mouth.
         <br>
-        <b><i>Inclusive templates</b></i>: made design choices with accessibility in mind.
+        <b><i>Inclusive templates</b></i>: made design choices with accessibility in mind, which had a great user response in return.
 
         <br><br>
         <div class="sectionTitle">Challenges</div>
@@ -425,7 +425,7 @@ const modalData = {
         <div class="sectionTitle">Challenges</div>
         <b><i>Balancing high caseload with quality of service</b></i>: as part of a legal aid service, the volume of clients made it challenging to maintain thorough support for each case.
         <br>
-        <i>Solution</i>: developed time-saving workflows, prioritized based on urgency and complexity, and used checklists to ensure no detail was missed.
+        <i>Solution</i>: developed time-saving workflows, prioritised based on urgency and complexity, and used checklists to ensure no detail was missed.
 
         <br>
         <b><i>Communicating legal processes to non-experts</b></i>: many clients had no legal background, making it difficult for them to understand procedures and expectations.
@@ -437,14 +437,14 @@ const modalData = {
         <div class="highlight">Problem-solving</div>
         <div class="highlight">Client-focused communication</div>
         <div class="highlight">Process optimization</div>
-        <div class="highlight">Task prioritization</div>
+        <div class="highlight">Task prioritisation</div>
         <div class="highlight">Adaptability</div>
     `,
     housekeeper:`
         <div class="sectionTitle">Key achievements</div>
         <b><i>Maintained high cleanliness scores in a fast-paced hotel environment</b></i>: consistently passed surprise inspections and guest audits by applying strong attention to detail and process consistency.
         <br>
-        <b><i>Streamlined room turnaround process without compromising quality</b></i>: identified inefficiencies in routine tasks and reorganized supply cart layouts—resulting in faster completion and better time use.
+        <b><i>Streamlined room turnaround process without compromising quality</b></i>: identified inefficiencies in routine tasks and reorganized supply cart layouts, resulting in faster completion and better time use.
         <br>
         <b><i>Resolved guest issues independently and professionally</b></i>: quickly responded to last-minute room changes or service requests, demonstrating calm problem-solving and service focus under pressure.
         <br>
