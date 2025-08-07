@@ -110,6 +110,16 @@ const contentData = {
         <div class="sectionTitle">Others</div>
         <hr>
 
+        <div class="highlight">Housekeeper</div>
+        <br>
+        2022 - Present
+        <br>
+        <i>Broc House Suites, Dublin</i>
+        <br>
+        Ensure high standards of cleanliness, efficiency, and guest satisfaction in a busy hotel environment. Developed time-saving workflows, maintained detailed checklists, and collaborated with team members to ensure service consistency and operational smoothness. 
+        <button class="learnMore" onClick="showHousekeeperModal()">Learn more</button>
+
+        <br><br>
         <div class="highlight">Legal Advisor</div>
         <br>
         2021
@@ -429,6 +439,30 @@ const modalData = {
         <div class="highlight">Process optimization</div>
         <div class="highlight">Task prioritization</div>
         <div class="highlight">Adaptability</div>
+    `,
+    housekeeper:`
+        <div class="sectionTitle">Key achievements</div>
+        <b><i>Maintained high cleanliness scores in a fast-paced hotel environment</b></i>: consistently passed surprise inspections and guest audits by applying strong attention to detail and process consistency.
+        <br>
+        <b><i>Streamlined room turnaround process without compromising quality</b></i>: identified inefficiencies in routine tasks and reorganized supply cart layouts—resulting in faster completion and better time use.
+        <br>
+        <b><i>Resolved guest issues independently and professionally</b></i>: quickly responded to last-minute room changes or service requests, demonstrating calm problem-solving and service focus under pressure.
+        <br>
+        <b><i>Supported new staff onboarding and training</b></i>: informally mentored new employees on hotel standards and tools, helping them ramp up faster and maintain team productivity.
+        <br><br>
+
+        <div class="sectionTitle">Challenges</div>
+        <b><i>Meeting strict time limits with high room turnover</b></i>: during peak seasons or events, pressure increased to clean rooms quickly while maintaining standards.
+        <br>
+        <i>Solution</i>: developed a checklist-based workflow to manage time better, anticipate bottlenecks, and reduce errors.
+        <br>
+        <b><i>Handling service inconsistencies across shifts or teams</b></i>: variations in guest expectations or team communication could affect the guest experience.
+        <br>
+        <i>Solution</i>: kept detailed notes for handovers and advocated for shared best practices across teams to ensure a consistent service.
+
+        <br><br>
+        <div class="sectionTitle">Main skills</div> <div class="highlight">Process optimisation</div> <div class="highlight">Attention to detail</div> <div class="highlight">Time-critical decision-making</div> <div class="highlight">Team collaboration</div> <div class="highlight">Service quality awareness</div>
+
     `
 };
 
@@ -570,4 +604,8 @@ function showLegalAnalystModal() {
 
 function showLegalAdvisorModal() {
     showModal(modalData.legalAdvisor);
+}
+
+function showHousekeeperModal() {
+    showModal(modalData.housekeeper);
 }
