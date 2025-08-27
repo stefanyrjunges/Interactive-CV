@@ -205,6 +205,7 @@ img.imgProjects {
   width: 20rem;
   border-radius: 0.625rem;
   box-shadow: 0 0.3125rem 0.9375rem rgba(0,0,0,0.2);
+  font-size: 0.85rem;
   background: #f9fafb;
   overflow: hidden;
   z-index: 1000;
@@ -241,7 +242,7 @@ img.imgProjects {
   border-radius: 1.25rem;
   border: 0.0625rem solid #ccc;
   font-family: Lekton;
-  font-size: 1rem;
+  font-size: 0.85rem;
   outline: none;
   transition: border-color 0.2s ease;
 }
@@ -253,6 +254,7 @@ img.imgProjects {
   margin-left: 0.625rem;
   padding: 0 1.125rem;
   font-weight: 600;
+  font-size: 0.85rem;
   border-radius: 1.25rem;
   cursor: pointer;
   transition: background-color 0.2s ease;
