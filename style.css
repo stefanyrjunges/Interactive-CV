@@ -335,6 +335,21 @@ a:hover {
         width: 48vh;
         font-size: 0.7rem;
     }
+
+    .chat-container {
+        width:15rem;
+    }
+
+    .chat-header,
+    .chat-log,
+    .chat-input-area input,
+    .chat-input-area button {
+        font-size: 0.7rem;
+    }
+
+    .chat-input-area {
+        padding: 0.4rem 0.6rem;
+    }
 }
 
 @media screen and (min-width:500px) {
