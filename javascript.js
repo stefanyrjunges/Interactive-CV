@@ -813,7 +813,7 @@ function askChatBot(event) {
   let response = "Oh no! I’m not sure about that 🤔 Try using a more specific keyword, or if you like, you can check the website or get in touch with Stefany directly!"
 
   for (const entry of knowledgeBase) {
-    if (entry.keywords.some(keyword => input.includes(keyword.toLowerCase()))) {
+    if (entry.keywords.some(keyword => input === keyword.toLowerCase())) {
       response = entry.answer;
       break;
     }
