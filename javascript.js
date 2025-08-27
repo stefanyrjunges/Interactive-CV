@@ -1,5 +1,5 @@
 const contentData = {
-    aboutMe: `
+  aboutMe: `
         <div class="sectionTitle">Who I am</div>
         <hr>
         <b><i>The year was 2012</b></i>. After browsing Tumblr for hours, 12-year-old me decided to dive into the world of HTML and CSS, which was a hobby for many young girls at the time. I didn't know what IT was - I didn't even know exactly what I was doing with all that code in front of me. But I knew I loved to develop, innovate and create, and that's exactly what I did for most of my teenage years: created user-focused websites for other Tumblr and Blogspot enthusiasts and shared tools so they could develop their own pages! From the desire to help and expand this idea, <b><i>HTMLForAll</b></i> was born, an initiative to make web development more accessible to underrepresented groups in tech such as women and the LGBTQ+ community.
@@ -37,7 +37,7 @@ const contentData = {
         <img src="/images/signature.png" style="width: 250px; margin-left:-12px; margin-top:0px;">
     `,
 
-    education: `
+  education: `
         <div class="sectionTitle">Education</div>
         <hr>
         <div class="highlight">National College of Ireland, Dublin</div>
@@ -56,7 +56,7 @@ const contentData = {
         <b><i>Main focus</b></i>: deep understanding of the legal system, conflict analysis, negotiation, problem-solving, initiative and ethical conduct. Integrated service to the local community with hands-on experience, engaged in research, conferences and team projects.
     `,
 
-    skills: `  
+  skills: `  
         <div class="sectionTitle">Technical skills</div>
         <hr>
         <div class="highlight">Languages</div> Java, Python, HTML, CSS, JavaScript
@@ -84,7 +84,7 @@ const contentData = {
         <div class="highlight">Quality-driven</div> Committed to developing purposeful and high-quality solutions that are thoughtfully designed, ethically grounded and easy to maintain, always guided by best practices and long-term impact.
 
     `,
-    experience: `
+  experience: `
         <div class="sectionTitle">Technology</div>
         <hr>
 
@@ -184,7 +184,7 @@ const contentData = {
         Oversaw daily operations in a fast-paced environment, managed scheduling and team coordination, resolved customer issues efficiently, and implemented workflow improvements to boost service quality and speed.
         <button class="learnMore" onClick="showAssistantManagerModal()">Learn more</button>
     `,
-    projects: `
+  projects: `
         <div class="sectionTitle">Projects</div>
         <hr>
         <div class="grid">
@@ -297,7 +297,7 @@ const contentData = {
 };
 
 const modalData = {
-    webDesigner: `
+  webDesigner: `
         <div class="sectionTitle">Key achievements</div>
         <b><i>Improved user retention by 40%</b></i>: by implementing iterative design based on feedback and analytics, users were more satisfied and spent more time on the website, reducing bounce rates.
         <br>
@@ -329,7 +329,7 @@ const modalData = {
         <div class="highlight">Bootstrap</div>
         <div class="highlight">PhotoFiltre</div>
     `,
-    founderAndDeveloper: `
+  founderAndDeveloper: `
         <div class="sectionTitle">Key achievements</div>
         <b><i>More than 5,000 downloads of templates and resources</b></i>: number reflected real demand and value, revealing people found the materials helpful and shared them organically.
         <br>
@@ -358,7 +358,7 @@ const modalData = {
         <div class="highlight">Content creation</div>
         <div class="highlight">Community building</div>
     `,
-    psychologicalCare: `
+  psychologicalCare: `
         <div class="sectionTitle">Key achievements</div>
         <b><i>Authored reports that directly influenced judicial decisions</b></i>: wrote psychosocial evaluations cited by judges in custody rulings, demonstrating clarity, neutrality, and strong data organization under legal scrutiny.
         <br>
@@ -384,7 +384,7 @@ const modalData = {
         <div class="highlight">Empathy in problem-solving</div>
         <div class="highlight">Ethical data handling</div>
     `,
-    legalAssistant: `
+  legalAssistant: `
         <div class="sectionTitle">Key achievements</div>
         <b><i>Prevented critical deadline miss by restructuring task priorities</b></i>: identified a scheduling conflict between two case deadlines and reorganized the team’s task queue, helping avoid a missed court filing and preserving client trust.
         <br>
@@ -411,7 +411,7 @@ const modalData = {
         <div class="highlight">Team communication</div>
         <div class="highlight">Process adaptation</div>
     `,
-    legalAnalyst: `
+  legalAnalyst: `
         <div class="sectionTitle">Key achievements</div>
         <b><i>Helped secure case dismissal through evidence contradiction</b></i>: identified inconsistencies in police reports and witness statements, which contributed to the dismissal of charges in a felony case.
         <br>
@@ -438,7 +438,7 @@ const modalData = {
         <div class="highlight">Time-sensitive problem-solving</div>
         <div class="highlight">Technical documentation</div>
     `,
-    legalAdvisor: `
+  legalAdvisor: `
         <div class="sectionTitle">Key achievements</div>
         <b><i>Successfully negotiated out-of-court settlements for multiple clients</b></i>: helped avoid litigation and reduce resolution time by facilitating mediation sessions that led to favorable agreements—saving time and resources for both the institution and clients.
         <br>
@@ -465,7 +465,7 @@ const modalData = {
         <div class="highlight">Task prioritisation</div>
         <div class="highlight">Adaptability</div>
     `,
-    housekeeper:`
+  housekeeper: `
         <div class="sectionTitle">Key achievements</div>
         <b><i>Maintained high cleanliness scores in a fast-paced hotel environment</b></i>: consistently passed surprise inspections and guest audits by applying strong attention to detail and process consistency.
         <br>
@@ -488,7 +488,7 @@ const modalData = {
         <br><br>
         <div class="sectionTitle">Main skills</div> <div class="highlight">Process optimisation</div> <div class="highlight">Attention to detail</div> <div class="highlight">Time-critical decision-making</div> <div class="highlight">Team collaboration</div> <div class="highlight">Service quality awareness</div>
     `,
-    assistantManager:`
+  assistantManager: `
         <div class="sectionTitle">Key achievements</div>
         <b><i>Resolved customer issues with empathy and speed</b></i>: handled escalations calmly, turning negative situations into positive outcomes, boosting customer satisfaction and retention.
         <br>
@@ -512,7 +512,7 @@ const modalData = {
         <div class="highlight">Customer-focused communication</div>
         <div class="highlight">Adaptability in fast-paced environments</div> 
     `,
-    mentee:`
+  mentee: `
         <div class="sectionTitle">Key achievements</div>
         <b><i>Clarified career path into the tech industry</b></i>: gained guidance from experienced professionals, which helped solidify long-term goals and align them with real-world opportunities in IT.
         <br>
@@ -545,149 +545,296 @@ const modalData = {
 const box = document.getElementsByClassName('box');
 
 function showBox() {
-    const runText = document.getElementsByClassName('runText');
-    const box = document.getElementsByClassName('box');
+  const runText = document.getElementsByClassName('runText');
+  const box = document.getElementsByClassName('box');
 
-    runText[0].style.display = 'none';
-    box[0].style.display = 'block';
+  runText[0].style.display = 'none';
+  box[0].style.display = 'block';
 
-    const nameTitle = document.querySelector(".nameTitle");
-    const menu = document.querySelector(".menu");
+  const nameTitle = document.querySelector(".nameTitle");
+  const menu = document.querySelector(".menu");
 
-    menu.style.marginBottom = "12vh";
+  menu.style.marginBottom = "12vh";
 
-    nameTitle.classList.remove("slide-down");
-    nameTitle.classList.add("slide-up");
+  nameTitle.classList.remove("slide-down");
+  nameTitle.classList.add("slide-up");
 
-    menu.classList.remove("slide-down");
-    menu.classList.add("slide-up");
+  menu.classList.remove("slide-down");
+  menu.classList.add("slide-up");
 
-    box[0].classList.remove("slide-down");
-    box[0].classList.add("slide-up");
+  box[0].classList.remove("slide-down");
+  box[0].classList.add("slide-up");
 
-    triggerAnimation(box[0], 'fadeIn');
+  triggerAnimation(box[0], 'fadeIn');
 
 }
 
 function unshowBox() {
-    const runText = document.getElementsByClassName('runText');
-    const box = document.getElementsByClassName('box');
+  const runText = document.getElementsByClassName('runText');
+  const box = document.getElementsByClassName('box');
 
-    runText[0].style.display = 'block';
-    box[0].style.display = 'none';
+  runText[0].style.display = 'block';
+  box[0].style.display = 'none';
 
-    const nameTitle = document.querySelector(".nameTitle");
-    const menu = document.querySelector(".menu");
+  const nameTitle = document.querySelector(".nameTitle");
+  const menu = document.querySelector(".menu");
 
-    menu.style.marginBottom = "0";
+  menu.style.marginBottom = "0";
 
-    nameTitle.classList.remove("slide-up");
-    nameTitle.classList.add("slide-down");
+  nameTitle.classList.remove("slide-up");
+  nameTitle.classList.add("slide-down");
 
-    menu.classList.remove("slide-up");
-    menu.classList.add("slide-down");
+  menu.classList.remove("slide-up");
+  menu.classList.add("slide-down");
 
-    runText.classList.add("slide-down");
+  runText.classList.add("slide-down");
 
-    box[0].classList.remove("slide-up");
-    box[0].classList.add("slide-down");
+  box[0].classList.remove("slide-up");
+  box[0].classList.add("slide-down");
 }
 
 function triggerAnimation(element, animationClass) {
-    element.classList.remove(animationClass);
-    void element.offsetWidth;
-    element.classList.add(animationClass);
+  element.classList.remove(animationClass);
+  void element.offsetWidth;
+  element.classList.add(animationClass);
 }
 
 function showAboutMe() {
-    showBox();
-    box[0].innerHTML = contentData.aboutMe;
+  showBox();
+  box[0].innerHTML = contentData.aboutMe;
 }
 
 function showEducation() {
-    showBox();
-    box[0].innerHTML = contentData.education;
+  showBox();
+  box[0].innerHTML = contentData.education;
 }
 
 function showSkills() {
-    showBox();
-    box[0].innerHTML = contentData.skills;
+  showBox();
+  box[0].innerHTML = contentData.skills;
 }
 
 function showExperience() {
-    showBox();
-    box[0].innerHTML = contentData.experience;
+  showBox();
+  box[0].innerHTML = contentData.experience;
 }
 
 function showProjects() {
-    showBox();
-    box[0].innerHTML = contentData.projects;
+  showBox();
+  box[0].innerHTML = contentData.projects;
 }
 
 // Modal
 
 function setupModal() {
-    const modal = document.getElementById("myModal");
-    const span = document.getElementsByClassName("close")[0];
+  const modal = document.getElementById("myModal");
+  const span = document.getElementsByClassName("close")[0];
 
-    span.onclick = function () {
-        modal.style.display = "none";
-    }
+  span.onclick = function () {
+    modal.style.display = "none";
+  }
 }
 
 function showModal(content) {
-    const modal = document.getElementById("myModal");
-    const modalContent = document.getElementsByClassName("modal-content")[0];
+  const modal = document.getElementById("myModal");
+  const modalContent = document.getElementsByClassName("modal-content")[0];
 
-    modalContent.innerHTML = '<span class="close">&times;</span>' + content;
-    modal.style.display = "block";
+  modalContent.innerHTML = '<span class="close">&times;</span>' + content;
+  modal.style.display = "block";
 
-    const span = modalContent.getElementsByClassName("close")[0];
-    span.onclick = function () {
-        modal.style.display = "none";
+  const span = modalContent.getElementsByClassName("close")[0];
+  span.onclick = function () {
+    modal.style.display = "none";
+  }
+
+  window.onclick = function (event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
     }
-
-    window.onclick = function (event) {
-        if (event.target == modal) {
-            modal.style.display = "none";
-        }
-    }
+  }
 }
 
 setupModal();
 
 function showWebDesignerModal() {
-    showModal(modalData.webDesigner);
+  showModal(modalData.webDesigner);
 }
 
 function showFounderAndDeveloperModal() {
-    showModal(modalData.founderAndDeveloper);
+  showModal(modalData.founderAndDeveloper);
 }
 
 function showPsychologicalCareModal() {
-    showModal(modalData.psychologicalCare);
+  showModal(modalData.psychologicalCare);
 }
 
 function showLegalAssistantModal() {
-    showModal(modalData.legalAssistant);
+  showModal(modalData.legalAssistant);
 }
 
 function showLegalAnalystModal() {
-    showModal(modalData.legalAnalyst);
+  showModal(modalData.legalAnalyst);
 }
 
 function showLegalAdvisorModal() {
-    showModal(modalData.legalAdvisor);
+  showModal(modalData.legalAdvisor);
 }
 
 function showHousekeeperModal() {
-    showModal(modalData.housekeeper);
+  showModal(modalData.housekeeper);
 }
 
 function showAssistantManagerModal() {
-    showModal(modalData.assistantManager);
+  showModal(modalData.assistantManager);
 }
 
 function showMenteeModal() {
-    showModal(modalData.mentee);
+  showModal(modalData.mentee);
+}
+
+// Chatbot
+
+const knowledgeBase = [
+  //Introduction
+  {
+    keywords: ["hi", "hey", "hello", "what's up", "heya"],
+    answer: "Hi! How are you? I'm Stefany's Chatbot :) I'm here to give you answers based on keywords!"
+  },
+  //Keywords
+  {
+    keywords: ["keyword", "keywords", "key", "could you give me keywords?", "suggest"],
+    answer: "Here are some keywords you can use: background, <b>experience</b>, international experience, <b>tech experience</b>, law experience, <b>hobbies</b>, education, projects, personal skills, <b>tech skills</b>."
+  },
+  // Background
+  {
+    keywords: ["background", "bio", "about stefany", "personal background"],
+    answer: "Stefany is a 3rd year Computer Science student with a background in Law and Web Design. She started coding at 12, studied Law in Brazil, passed the Bar on her first attempt, and later moved to Ireland to pursue Computing."
+  },
+  // International experience
+  {
+    keywords: ["international experience", "countries lived", "travel experience"],
+    answer: "Stefany has lived in Brazil, Canada and Ireland, and has traveled to 16 countries so far!"
+  },
+  // Hobbies
+  {
+    keywords: ["hobbies", "interests", "free time activities", "leisure", "hobby"],
+    answer: "Stefany enjoys traveling, photography, bird watching, and playing The Sims on her free time."
+  },
+
+  // Education
+  {
+    keywords: ["current education", "current study", "bsc computing", "computing degree", "degree", "computer science", "cs", "computing"],
+    answer: "Stefany is pursuing a Bachelor of Science (Honours) in Computing at the National College of Ireland (2023 - 2027)."
+  },
+  {
+    keywords: ["previous education", "law degree", "past education", "past degree", "previous degree"],
+    answer: "Stefany earned a Bachelor of Laws at University of Passo Fundo, Brazil (2017 - 2022)."
+  },
+
+  // Law
+  {
+    keywords: ["law experience", "legal work", "law career", "legal background", "law"],
+    answer: "Stefany has significant experience in Law, working as Legal Advisor, Legal Analyst, Legal Assistant, and at her then University legal service."
+  },
+
+  // Technology
+  {
+    keywords: ["tech experience", "technology experience", "it experience", "computing experience"],
+    answer: "Stefany has experience as a Web Designer, Founder & Developer of HTMLForAll, a mentee at Dell Technologies, and has developed multiple projects in Java, Python, HTML, CSS, and JavaScript."
+  },
+  // Java
+  {
+    keywords: ["java", "java projects", "java experience"],
+    answer: "Stefany has experience in Java and has built multiple applications using this language, such as a hotel management, payroll system, banking app, etc."
+  },
+  // Python
+  {
+    keywords: ["python", "python projects", "python experience"],
+    answer: "Stefany has experience with Python, and built an Assignment Organizer app using Python and Tkinter."
+  },
+  // JavaScript
+  {
+    keywords: ["javascript", "js", "javascript projects", "web development"],
+    answer: "Stefany has experience with JavaScript, having developed multiple websites for clients and web applications, including an employee database and products lookup system."
+  },
+  // Databases
+  {
+    keywords: ["databases", "mysql", "mongodb", "json", "database experience", "database", "db"],
+    answer: "Stefany has worked with MySQL, MongoDB, and JSON."
+  },
+  // Projects
+  {
+    keywords: ["open source", "github projects", "opensource", "github", "projects", "personal projects"],
+    answer: "Stefany has several projects available on GitHub, including PayrollPRO, Blood Test Scheduler, EmployeeDB, and more."
+  },
+  // Experience
+  {
+    keywords: ["experience", "work experience", "career", "professional background"],
+    answer: "Stefany has a diverse and extensive professional background spanning law, technology, and leadership roles. In law, she worked as a Legal Advisor, Legal Analyst, Legal Assistant, and at a University legal service, providing free assistance to low-income clients and gaining experience in both family and criminal law. In technology, she has worked as a Web Designer, developed multiple projects in Java, Python, HTML, CSS, and JavaScript, and founded HTMLForAll to make coding accessible to underrepresented groups. She has also been mentored at Dell Technologies in Dublin and contributed to open-source projects. Beyond law and tech, Stefany has held other roles such as Housekeeper and Assistant Manager at Four Star Pizza, where she gained leadership and team management experience. Overall, her experience reflects adaptability, problem-solving, and the ability to work effectively in diverse environments."
+  },
+  // Skills
+  {
+    keywords: ["soft skills", "personal skills", "strengths", "qualities"],
+    answer: "Stefany has strong personal skills that complement her technical and professional expertise. She is an excellent communicator, able to convey complex ideas clearly and collaborate effectively with diverse teams. She is a skilled problem solver, known for debugging issues and helping peers resolve challenges. Stefany demonstrates adaptability, successfully transitioning from law to computing and thriving in new environments. She works well in teams, shows leadership when needed, and consistently approaches tasks with ambition, initiative, and resilience."
+  },
+  // Other skills
+  {
+    keywords: ["programming languages", "languages", "coding languages"],
+    answer: "Stefany has experience with Java, Python, HTML, CSS and JavaScript."
+  },
+  {
+    keywords: ["tools", "software tools", "tech tools", "frameworks"],
+    answer: "Stefany has experience with JavaFX, Swing, JasperReports, Node.js, Bootstrap, Cisco Packet Tracer, Photoshop, and more."
+  },
+  {
+    keywords: ["tech skills", "technical skills", "programming experience", "it skills"],
+    answer: "Stefany has experience with Java, Python, HTML, CSS and JavaScript; and tools such as JavaFX, Swing, JasperReports, Node.js, Bootstrap, Cisco Packet Tracer, Photoshop, and more."
+  },
+  // Contact
+  {
+    keywords: ["contact", "reach out", "get in touch", "email", "linkedin", "github"],
+    answer: "You can contact Stefany via email (stefanyrjunges@gmail.com), LinkedIn (linkedin.com/stefany-junges), or GitHub (github.com/stefanyrjunges)."
+  },
+  {
+    keywords: ["portfolio", "website", "projects", "showcase"],
+    answer: "Stefany’s website includes her projects, experience, and background. Please see Projects in the menu."
+  }
+];
+
+function askChatBot(event) {
+  if (event) event.preventDefault();
+
+  const inputElem = document.getElementById("userInput");
+  const input = inputElem.value.trim().toLowerCase();
+  const chatlog = document.getElementById("chatlog");
+
+  if (!input) return;
+
+  let response = "Oh no! I’m not sure about that 🤔 Try using a more specific keyword, or if you like, you can check the website or get in touch with Stefany directly!"
+
+  for (const entry of knowledgeBase) {
+    if (entry.keywords.some(keyword => input.includes(keyword.toLowerCase()))) {
+      response = entry.answer;
+      break;
+    }
+  }
+
+  chatlog.innerHTML += `<p><div class="highlight">You</div> ${input}</p>`;
+
+  setTimeout(() => {
+    chatlog.innerHTML += `<p><div class="highlight">Bot</div> ${response}</p>`;
+    chatlog.scrollTop = chatlog.scrollHeight;
+  }, 800);
+
+  inputElem.value = "";
+  inputElem.focus();
+}
+
+function toggleChat() {
+  const chatContent = document.getElementById('chat-content');
+  if (chatContent.style.display === 'none' || chatContent.style.display === '') {
+    chatContent.style.display = 'block';
+  } else {
+    chatContent.style.display = 'none';
+  }
 }

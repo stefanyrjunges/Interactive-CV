@@ -19,7 +19,7 @@
         rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="javascript.js"></script>
+    <script src="javascript.js" defer></script>
 
 </head>
 
@@ -36,18 +36,33 @@
             <menuItem><button onclick="showExperience()">Experience</button></menuItem>
             <menuItem><button onclick="showProjects()">Projects</button></menuItem>
         </div>
-
+        
         <div class="runText">JAVA <i>WEB DESIGN </i>MYSQL <i>SOFTWARE DEVELOPMENT</i> EMPOWERMENT</div>
-
+        
         <div class="box"></div>
-
-    </div>
-
-    <div id="myModal" class="modal">
-        <div class="modal-content">
-            <span class="close">&times;</span>
+        
+        <div class="chat-container" role="main" aria-label="Chatbot interface">
+            <header class="chat-header" role="banner" tabindex="0" onclick="toggleChat()"
+                onkeypress="if(event.key === 'Enter') toggleChat()">
+                CHATBOT
+            </header>
+            <section id="chat-content" style="display: none;">
+                <section id="chatlog" class="chat-log">
+                    <p><div class="highlight">Bot</div> Hello! I’m Stefany’s chatbot 🤖 You can type a keyword to get started, or I
+                    can suggest some for you if you type "keywords"!</p>
+                </section>
+                <form id="chat-form" class="chat-input-area" onsubmit="askChatBot(event)">
+                    <input type="text" id="userInput" placeholder="Ask chat for keywords!" autocomplete="off" required
+                        aria-label="Chat input" />
+                    <button type="submit" aria-label="Send message">SEND</button>
+                </form>
+            </section>
         </div>
-
-</body>
-
+        
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+            </div>
+        </div>
+</body>        
 </html>
