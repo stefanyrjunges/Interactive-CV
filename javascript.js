@@ -788,7 +788,7 @@ const knowledgeBase = [
   },
   {
     keywords: ["tech skills", "technical skills", "programming experience", "it skills"],
-    answer: "Stefany has experience with Java, Python, HTML, CSS and JavaScript; and tools such as JavaFX, Swing, JasperReports, Node.js, Bootstrap, Cisco Packet Tracer, Photoshop, and more."
+    answer: "Stefany has experience with Java, Python, HTML, CSS and JavaScript; and tools such as RESTful Apis, React, Spring Boot, Node.js, Bootstrap, Postman, JavaFX, Swing, JasperReports, Cisco Packet Tracer, Photoshop and more."
   },
   // Contact
   {
